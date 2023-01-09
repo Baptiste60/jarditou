@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarditou - Contact</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="assets/src/img/jarditou_logo.jpg" title="logo de Jarditou" alt="Logo de Jarditou">
+    <p class="p_header">La qualité depuis 70 ans</p>
+  </header>
+  <nav>
+    <ul id="nav" class="ul_nav">
+      <li><a href="index.html" title="Page suivante">Accueil</a> </li>
+      <li><a href="tableau.html" title="Page suivante">Tableau</a></li>
+      <li><a href="contact.html" title="Page suivante">Contact</a></li>
+    </ul>
+    <img src="assets/src/img/promotion.jpg" title="promotion" alt="Logo de promotion">
+  </nav>
+  <h1>Contact</h1>
+  <hr>
+  <p>*Ces zones sont obligatoires</p>
+  <fieldset>
+    <legend>Vos coordonées</legend>
+    <a>Votre nom* : </a><input class="input" id="last_name" type="text" required><br>
+    <a>Votre prénom* : </a><input class="input" id="first_name" type="text" required>
+    <br><br>
+    <a>Sexe* : </a><input type="radio" id="sexe" value="Féminin" required><a>féminin</a>
+    <input type="radio" value="Féminin"><a>masculin</a>
+    <br><br>
+    <a>Date de naissance* : </a><input class="input" id="birthday" type="date" value="birth_day" required><br>
+    <a>Code postal* : </a><input class="input" id="postal_code" type="text" required><br>
+    <a>Adresse : </a><input class="input" id="mail" type="text"><br>
+    <a>Ville : </a><input class="input" id="city" type="text" required><br>
+    <a>Email* : </a><input class="input" id="email" type="mail" required><br>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Votre demande</legend>
+    <a>Sujet* : </a>
+    <label for="sujets" required></label>
+    <select class="input" name="subject" id="subject">
+      <option value="choisir un sujet">Veillez choisir un sujet</option>
+      <option value="remboursement">Remboursement</option>
+      <option value="contacter">Nous contacter?</option>
+      <option value="livraison">Problème de livraison</option>
+    </select><br>
+    <a>Votre question* : </a> <input class="input" id="question" type="text" required>
+  </fieldset>
+  <br>
+  <div>
+    <input type="checkbox" required><a> *J'accepte le traitement de ce formulaire</a>
+    <br><br>
+    <input type="button" value="Envoyer"> <input type="button" value="Annuler">
+  </div>
+  <hr>
+  <footer>
+    <ul>
+      <li><a href="mentions_légales.html" title="Page suivante">Mentions légales</a> </li>
+      <li><a href="#nav" title="Navigation">Plan du site</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

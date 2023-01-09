@@ -1,0 +1,278 @@
+@media screen and (min-width:768px) {
+
+    aside {
+        display: flex;
+        background: gray;
+        padding-right: 25.6%;
+    }
+
+    body {
+        background-color: mediumseagreen;
+        opacity: 0.9;
+    }
+
+    .div_tableau {
+        display: flex;
+    }
+
+    footer {
+        background-color: mediumseagreen;
+    }
+
+    header {
+        background-color: rgb(5, 22, 5);
+    }
+
+    header img {
+        width: 98%;
+    }
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        display: flex;
+        justify-content: center;
+        padding-left: 2%;
+    }
+
+    .input {
+        border: black solid 3px;
+    }
+
+    nav img {
+        border: 20px solid rgb(5, 22, 5);
+        width: 98%;
+    }
+
+    p {
+        font-size: 0.6cm;
+    }
+
+    .p_header {
+        background-color: mediumseagreen;
+        font-size: 0.6cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        background: palegreen;
+        margin-right: 50%;
+        font-size: 0.5cm;
+    }
+
+    tr {
+        font-size: 0.6cm;
+        display: flex;
+        justify-content: space-around;
+        border: solid black;
+
+    }
+
+    ul {
+        background: black;
+        opacity: 0.8;
+        padding: 0.5%;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
+    ul li {
+        background: white;
+        opacity: 0.6;
+        display: inline-block;
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+        font-size: 0.7cm;
+        text-transform: uppercase;
+    }
+}
+
+#last_name {
+    width: 5.08cm;
+}
+
+#first_name {
+    width: 4.35cm;
+}
+
+#birthday {
+width: 3.36cm;
+}
+
+#postal_code {
+    width: 4.72cm;
+}
+
+#mail {
+    width: 5.77cm;
+    }
+
+#city {
+    width: 6.52cm;
+}
+
+#email {
+    width:6.03cm;
+}
+
+#subject {
+    width: 6.398cm;
+}
+
+#question {
+    width: 4.15cm;
+}
+
+@media screen and (min-width:1000px) {
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 73%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 70%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:700px) {
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 60%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:600px) {
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 70%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    aside {
+        display: flex;
+        background: gray;
+        padding-right: 25.6%;
+    }
+
+    body {
+        text-decoration: none;
+        background-color: mediumseagreen;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_tableau {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        background-color: mediumseagreen;
+    }
+
+    header {
+        background-color: rgb(5, 22, 5);
+        text-decoration: none;
+    }
+
+    header img {
+        width: 98%;
+    }
+
+    h1 {
+        background-color: rgb(20, 104, 20);
+        margin-right: 67%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav img {
+        border: 20px solid rgb(5, 22, 5);
+        width: 98%;
+    }
+
+    p {
+        font-size: 0.6cm;
+    }
+
+    .p_header {
+        background-color: mediumseagreen;
+        font-size: 0.6cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        background: palegreen;
+        margin-right: 50%;
+        font-size: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr {
+        font-size: 0.6cm;
+        display: flex;
+        justify-content: space-around;
+        border: solid black;
+        flex-direction: column;
+    }
+
+    ul {
+        background: black;
+        opacity: 0.8;
+        padding: 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none;
+    }
+
+    ul li {
+        background: rgb(255, 255, 255);
+        opacity: 0.6;
+        display: inline-block;
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+        font-size: 0.7cm;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+
+    }
+}
